@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ce_1958687.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_linear_layout"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            style="@style/AligableText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_text_view_height"
+            android:textSize="@dimen/title_fashion_tsize"
+            android:text="Paris week fashion"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:id="@+id/text_state"
+            android:background="@drawable/oval_text_view"
+            android:text="
+           performs"
+            android:textSize="5sp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/start_show"
+            android:text="Start                                           April 10, 2016"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Finish                                        April 17, 2016"
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/designer"
+            android:text="Alexander McQueen                Stockholm Fall"
+            android:textSize="13sp"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Channel                                    Spring Couture"
+            android:layout_marginBottom="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="Rodarte"
+                android:layout_weight=".5"/>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="       Pre Fall"
+                android:layout_weight=".4"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Alberta Ferretti"/>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="Pre Fall"
+                android:layout_weight=".2"
+
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="10dp"
+           android:text="The week began with a surge of excitement led by young Paris-based designers not witnessed for so many years that you’d almost have to go back to the early days of Jean Paul Gaultier to think of a parallel.The legendary Marchesa Luisa Casati, one of the most enduring inspirations in fashion, served Alberta Ferretti as a muse for her Limited Edition Fall collection. Casati’s dark femme fatale beauty and lavish display of wild eccentricities mesmerized generations of artists; she was worshipped and hated in equal measure. “What I like about La Marchesa was her untamable free spirit and modern allure,” said Ferretti. “She lived in Venice, whose atmosphere suited her mysterious charm.” The enigmatic decadence of the city was the backdrop of choice for the collection’s video presentation, a new, social-savvy medium embraced by Ferretti with gusto. "
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="horizontal"
+
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>
