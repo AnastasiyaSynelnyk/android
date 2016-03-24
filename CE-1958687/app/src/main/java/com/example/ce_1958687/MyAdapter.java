@@ -14,8 +14,8 @@ import com.squareup.picasso.Picasso;
 import org.w3c.dom.Text;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
-    Context context;
 
+    Context context;
 
     String[] myDataSet;
 
@@ -42,18 +42,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.image_view, parent, false);
 
-        // Here you pass WHOLE view, not just the imageview
         ViewHolder viewHolder = new ViewHolder(view);
         return viewHolder;
     }
 
     @Override
     public void onBindViewHolder(MyAdapter.ViewHolder holder, int position) {
-        // Here adapter sets data on each visible image holder
         Picasso.with(context)
-                // String from dataset
                 .load(myDataSet[position])
-                        // use holder directly
                 .into(holder.imageFashion);
 
     }
