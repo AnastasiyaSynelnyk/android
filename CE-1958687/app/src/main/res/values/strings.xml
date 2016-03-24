@@ -1,4 +1,64 @@
 <resources>
     <string name="app_name">CE-1958687</string>
     <string name="action_settings">Settings</string>
+    <string name="fashion_title">Paris week fashion</string>
+    <string name="state_text">performs</string>
+    <string name="starting">Start</string>
+    <string name="finish">Finish</string>
+    <string name="start_date">April 10, 2016</string>
+    <string name="finish_date">April 18, 2016</string>
+    <string name="alexander_mc_queen">Alexander McQueen</string>
+    <string name="stockholmfall">Stockholm Fall</string>
+    <string name="channel">Channel</string>
+    <string name="spring_couture">Spring Couture</string>
+
+    <string name="description">The tenderness and the technical expertise of the paris designers mustered for this spring
+        collection was a triumph. Balancing out those basics were a few special pieces like a jaguar-printed calf-hair jacket,
+        a sculpted bustier (which they layered over a sweater), and a reversible embroidered souvenir bomber.
+        That mix reflected how women shop now: Most of our wardrobes consist of comfy, but we might invest in a great jacket
+        or skirt to elevate them. What the new Channel is likely to become known for, though, is the perfectly slouchy,
+        high-shine satin suits. You could wear them with a blazer, a cardigan, or a matching satin blouse and go just about anywhere.</string>
+
+    <string-array name="models_array">
+        <item>http://assets.vogue.com/photos/56d84f4cd44ad6bd4ce14a22/master/pass/_MON0273.jpg</item>
+        <item>http://assets.vogue.com/photos/55f830972f0cd74d7e5f08ee/master/pass/_ROD0387.jpg</item>
+        <item>http://assets.vogue.com/photos/56decab22659bf3a0e070445/master/pass/_LUC8919.jpg</item>
+        <item>http://assets.vogue.com/photos/55f82ff37e0985517e1cffd0/master/pass/_ROD0299.jpg</item>
+        <item>http://assets.vogue.com/photos/56dea5237314ef1c4ab0efa7/master/pass/_CHA0171.jpg</item>
+        <item>http://assets.vogue.com/photos/561394115b39586e6d21c4f1/master/pass/_CHA0131.jpg</item>
+        <item>http://assets.vogue.com/photos/55f830461220d6bc4daaebe2/master/pass/_ROD0345.jpg</item>
+        <item>http://assets.vogue.com/photos/56d851b3050ae6403a815219/master/pass/_MON0853.jpg</item>
+        <item>http://assets.vogue.com/photos/56d6c5070715a2423ac3b4f9/master/pass/KIM_0693.jpg</item>
+        <item>http://assets.vogue.com/photos/55f82e98dec6259042310556/master/pass/_ROD0101.jpg</item>
+        <item>http://assets.vogue.com/photos/55f82fa5dec6259042310569/master/pass/_ROD0253.jpg</item>
+        <item>http://assets.vogue.com/photos/55f830484399ed4a7e86e02e/master/pass/_ROD0365.jpg</item>
+        <item>http://assets.vogue.com/photos/56d8516bd44ad6bd4ce14a57/master/pass/_MON0783.jpg</item>
+        <item>http://assets.vogue.com/photos/56cdf41c11a53bd574bc8121/master/pass/_ARC0013.jpg</item>
+        <item>http://assets.vogue.com/photos/56d8530fd44ad6bd4ce14a84/master/pass/_MON1051.jpg</item>
+        <item>http://assets.vogue.com/photos/56ca1402a20a782629c3c652/master/pass/KIM_0637.jpg</item>
+        <item>http://assets.vogue.com/photos/56d852cb40a5ec107d06c45a/master/pass/_MON1029.jpg</item>
+        <item>http://assets.vogue.com/photos/56d8509f40a5ec107d06c423/master/pass/_MON0635.jpg</item>
+        <item>http://assets.vogue.com/photos/55f830a090e1ea5743ee7013/master/pass/_ROD0429.jpg</item>
+        <item>http://assets.vogue.com/photos/56d85287be6733b44cb528a6/master/pass/_MON0963.jpg</item>
+        <item>http://assets.vogue.com/photos/56cdf432a20a782629c3dba4/master/pass/_ARC0066.jpg</item>
+        <item>http://assets.vogue.com/photos/56cdf471bccbe93429d963fb/master/pass/_ARC0821.jpg</item>
+        <item>http://assets.vogue.com/photos/56cdf45c6251bed874a1e754/master/pass/_ARC1009.jpg</item>
+        <item>http://assets.vogue.com/photos/56d852820715a2423ac3c3b0/master/pass/_MON0935.jpg</item>
+        <item>http://assets.vogue.com/photos/56ca0fe505d0ebda742c5149/master/pass/KIM_0249.jpg</item>
+        <item>http://assets.vogue.com/photos/56d84dee875147393a586730/master/pass/_MON0015.jpg</item>
+        <item>http://assets.vogue.com/photos/56d84e5740a5ec107d06c3df/master/pass/_MON0081.jpg</item>
+        <item>http://assets.vogue.com/photos/56d84f4cd44ad6bd4ce14a22/master/pass/_MON0273.jpg</item>
+        <item>http://assets.vogue.com/photos/56dc8c9f40a5ec107d06ec30/master/pass/_MON0121.jpg</item>
+        <item>http://assets.vogue.com/photos/56dc8e28a734133d3a999d78/master/pass/_MON0315.jpg</item>
+        <item>http://assets.vogue.com/photos/56dc92985287c6127d545fa0/master/pass/_MON0961.jpg</item>
+
+        <item>http://assets.vogue.com/photos/56d85314d44ad6bd4ce14a8a/master/pass/_MON1091.jpg</item>
+        <item>http://assets.vogue.com/photos/56d853620715a2423ac3c3ce/master/pass/_MON1149.jpg</item>
+        <item>http://assets.vogue.com/photos/56a743fd51a18c910eda8fef/master/pass/_CHA0519.jpg</item>
+        <item>http://assets.vogue.com/photos/56ca149510c4f4de4077680e/master/pass/KIM_0766.jpg</item>
+        <item>http://assets.vogue.com/photos/56d85365d44ad6bd4ce14aa6/master/pass/_MON1173.jpg</item>
+        <item>http://assets.vogue.com/photos/56d850e5be6733b44cb5288f/master/pass/_MON0701.jpg</item>
+
+
+    </string-array>
 </resources>
