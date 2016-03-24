@@ -13,6 +13,10 @@
 
 
 
+
+    </style>
+    <style name="lineColor" parent="Animation.Design.BottomSheetDialog">
+        <item name="android:background">#000000</item>
     </style>
 
 </resources>
